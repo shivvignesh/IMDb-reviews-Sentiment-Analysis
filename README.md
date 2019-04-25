@@ -17,12 +17,25 @@ This project requires python 3.6 or any other higher versions of python along wi
 
 You also need a software to run this python notebook, "Jupyter Notebook". It is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included.
 
-## Description of the Dataset
+## Description of the Dataset & Attribute information
 
-IMDb reviews dataset can be found on kaggle https://www.kaggle.com/oumaimahourrane/imdb-reviews. The dataset contains 25k reviews (approx) & only two columns which are SentimentText and Sentiment. This contains 25k highly polar reviews for binary classification. 
+IMDb reviews dataset can be found on kaggle https://www.kaggle.com/oumaimahourrane/imdb-reviews. The dataset contains 25k reviews (approx) & only two columns which are <strong>SentimentText</strong> and <strong>Sentiment</strong>. This contains 25k highly polar reviews for binary classification. The Sentiment column which contains the binary classified output for each review, 
+* 1- positive review
+* 0- negative review
 
-* SentimentText: 
+## Description of the repository
 
+The repository contains 4 notebooks
+
+* imdb review logistic regression-CountVectorizer.ipynb: This notebook contains a logistic regression model trained to classify the movie review as positive or negative.
+
+The vectorization method used is <strong>CountVectorizer</strong> 
+
+CountVectorizer in brief is provides a simple way to both tokenize a collection of text documents and build a vocabulary of known words, but also to encode new documents using that vocabulary.
+
+* imdb review logistic regression-TfIdf Vectorizer.ipynb: Notebook is similar to the above, but the vectorization used is <strong>TfIdf vectorizer.</strong>
+
+TF-IDF is an abbreviation for Term Frequency-Inverse Document Frequency and is a very common algorithm to transform text into a meaningful representation of numbers. The technique is widely used to extract features across various NLP applications.
 
 
 
