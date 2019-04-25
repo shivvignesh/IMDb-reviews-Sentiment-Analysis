@@ -39,6 +39,8 @@ CountVectorizer in brief is provides a simple way to both tokenize a collection 
 
 TF-IDF is an abbreviation for Term Frequency-Inverse Document Frequency and is a very common algorithm to transform text into a meaningful representation of numbers. The technique is widely used to extract features across various NLP applications.
 
+* imdb_review_Keras_(reduced_validation_loss).ipynb : Neural Network implementation of the dataset. 
+
 
 ## Brief on Feature Engineering for this dataset:
 	
